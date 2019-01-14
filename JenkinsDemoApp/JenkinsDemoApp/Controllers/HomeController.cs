@@ -11,7 +11,7 @@ namespace JenkinsDemoApp.Controllers
     {
         public ActionResult Index()
         {
-            return View()dsdsadl;
+            return View();
         }
 
         public ActionResult About()
