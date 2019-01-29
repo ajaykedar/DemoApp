@@ -27,5 +27,12 @@ namespace JenkinsDemoApp.Controllers
 
             return View();
         }
+
+        public ActionResult Career()
+        {
+            ViewBag.Message = "Your Careers page.";
+
+            return View();
+        }
     }
 }
